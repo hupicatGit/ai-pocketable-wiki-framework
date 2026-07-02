@@ -2,7 +2,9 @@
 
 [![English](https://img.shields.io/badge/README-English-green)](./README.md)
 
-> 给中型项目的超轻量 AI 记忆框架。一个目录，即插即用，AI 自动维护。
+> 给 vibe coding 项目的超轻量 AI 记忆框架。一个目录，即插即用，AI 自动维护。
+>
+> **本框架依赖 AI Agent。** 专为以 AI（Claude Code、Codex、Cursor、Hermes 等）为主要开发工具的项目设计。Wiki 由 AI 读写维护 — 你不需要写文档，AI 替你完成。
 >
 > **完全兼容 [Obsidian](https://obsidian.md/)** — `[[双向链接]]`、YAML frontmatter、目录结构均原生支持。既是 AI 记忆库，也是人类可用的 Obsidian vault。
 
