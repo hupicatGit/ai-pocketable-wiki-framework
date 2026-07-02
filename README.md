@@ -24,11 +24,11 @@ sources（原始资料摘要）
     ↓ 提炼
 concepts（概念）+ entities（实体）
     ↓ 聚合
-overview（综合概述）
+overview（项目概述）
     ↓ 导航
-index（总目录）
+index（目录）
     ↓ 追记
-log（变更日志）
+log（变更记录）
 ```
 
 AI 从 overview 获取全局视图，按需 drill-down 到具体条目。不需要一次性加载所有文档。
@@ -57,9 +57,9 @@ your-project/
 └── wiki/
     ├── AGENTS.md                  ← 触发文件（引导 AI 发现 wiki）
     ├── AI-OPERATION-SPEC.md       ← AI 操作规范（AI 第一个读的文件）
-    ├── index-总目录.md             ← 总目录
-    ├── overview-综合概述.md        ← 项目核心知识提炼
-    ├── log-变更日志.md             ← 只追加的变更记录
+    ├── index.md                     ← 目录
+    ├── overview.md                  ← 项目核心知识提炼
+    ├── log.md                       ← 只追加的变更记录
     ├── sources/                   ← 原始资料摘要
     ├── concepts/                  ← 概念条目（方法、术语、流程）
     ├── entities/                  ← 实体条目（项目、团队、组件）

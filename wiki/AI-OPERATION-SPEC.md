@@ -54,7 +54,7 @@
 > 写入内容：
 > ```
 > ## Wiki 优先原则
-> 处理本项目任务前，先检索 wiki/ 目录（先读 AI-OPERATION-SPEC.md 再查 index-总目录.md）。
+> 处理本项目任务前，先检索 wiki/ 目录（先读 AI-OPERATION-SPEC.md 再查 index.md）。
 >
 > ## 知识回流
 > 任务中发现的新信息，按 wiki/AI-OPERATION-SPEC.md 的 7 步流程写入 wiki。
@@ -63,7 +63,7 @@
 ### 第 2 步：Wiki 优先
 
 每次接到项目任务，**先查 wiki 再动手**。
-   - a. 读取 `index-总目录.md` 了解现有条目
+   - a. 读取 `index.md` 了解现有条目
    - b. 按中英文关键词搜索 wiki 目录文件名和内容
    - c. 即使无结果，也要在回答中说明「已检索 wiki，未找到相关条目」
 
@@ -90,9 +90,9 @@
 ```
 wiki/
 ├── AI-OPERATION-SPEC.md  ← 本文件（AI 操作规范，Agent 先读这个）
-├── index-总目录.md       ← 总目录
-├── log-变更日志.md       ← 变更日志（只追加）
-├── overview-综合概述.md  ← 综合概述（核心知识提炼）
+├── index.md       ← 总目录
+├── log.md       ← 变更日志（只追加）
+├── overview.md  ← 综合概述（核心知识提炼）
 ├── sources/              ← 原始资料摘要
 ├── concepts/             ← 概念条目（方法、术语、流程）
 ├── entities/             ← 实体条目（项目、团队、组件）
@@ -149,9 +149,9 @@ last_updated: YYYY-MM-DD
 2. **sources/**：创建摘要页面（frontmatter + 关键信息 + `[[相关链接]]`）
 3. **concepts/**：更新或新建所有相关概念页面
 4. **entities/**：更新或新建所有相关实体页面
-5. **overview/**：核心论点有变化时更新 `overview-综合概述.md`
-6. **index/**：新页面加入 `index-总目录.md` 对应分类
-7. **log/**：在 `log-变更日志.md` 追加 `## YYYY-MM-DD 摄入 | 来源名称`
+5. **overview/**：核心论点有变化时更新 `overview.md`
+6. **index/**：新页面加入 `index.md` 对应分类
+7. **log/**：在 `log.md` 追加 `## YYYY-MM-DD 摄入 | 来源名称`
 
 > ⚠️ **overview 与 index 必须同步**：index 新增的条目必须同步加入 overview 的分类列表。
 

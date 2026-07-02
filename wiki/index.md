@@ -14,7 +14,7 @@ last_updated: YYYY-MM-DD
 - [[AI-OPERATION-SPEC]] — AI 操作规范（必读）
 
 ## 📖 概述
-- [[overview-综合概述]]
+- [[overview]]
 
 ## 🏢 实体 (Entities)
 <!-- 项目、团队、组件、系统等具体事物 -->
@@ -33,4 +33,4 @@ last_updated: YYYY-MM-DD
 - （暂无）
 
 ## 📝 变更日志
-- [[log-变更日志]]
+- [[log]]
