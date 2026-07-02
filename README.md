@@ -4,8 +4,6 @@
 
 > An ultra-lightweight AI memory framework for vibe coding projects. One directory, plug and play, AI maintains it automatically.
 >
-> **This framework depends on AI agents.** It's designed for projects where AI (Claude Code, Codex, Cursor, Hermes, etc.) is your primary development tool. The wiki is read and maintained by AI — you don't write docs, AI does it for you.
->
 > **Fully compatible with [Obsidian](https://obsidian.md/)** — `[[wikilinks]]`, YAML frontmatter, and directory structure work out of the box. It's both an AI memory store and a human-browsable Obsidian vault.
 
 ## Why This?
